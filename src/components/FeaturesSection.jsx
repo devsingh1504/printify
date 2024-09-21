@@ -19,17 +19,17 @@ function FeaturesSection() {
     <div className="max-w-screen-xl mx-auto px-4 md:px-2 py-12 md:py-16">
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3">
         <Feature
-          imgSrc="/public/higher-profits.svg"
+          imgSrc="/higher-profits.svg"
           title="Higher Profits"
           description="We offer some of the lowest prices in the industry because print providers continuously compete to win your business."
         />
         <Feature
-          imgSrc="/public/robust-scaling.svg"
+          imgSrc="/robust-scaling.svg"
           title="Robust Scaling"
           description="Easily handle peak holiday seasons, with our wide network of partners and automatic routing functionality."
         />
         <Feature
-          imgSrc="/public/best-selection.svg"
+          imgSrc="/best-selection.svg"
           title="Best Selection"
           description="With 900+ products and top quality brands, you can choose the best products for your business."
         />

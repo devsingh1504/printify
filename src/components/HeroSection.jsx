@@ -29,7 +29,7 @@ function HeroSection() {
       </div>
       <div className="mt-8 md:mt-0 md:ml-32 flex justify-center">
         <img
-          src="/public/poster.gif"
+          src="/poster.gif"
           alt="Custom Product"
           className="w-60 md:w-80 lg:w-96"
         />

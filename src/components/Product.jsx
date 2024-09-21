@@ -16,10 +16,7 @@ function Product() {
     <>
       <div className="bg-gray-100 hero max-w-screen-xl mx-auto px-2 py-8">
         <div className="hero-content flex-col lg:flex-row bg-base-100 shadow-xl max-h-auto overflow-hidden">
-          <img
-            src="/public/shirt.png"
-            className="max-w-sm rounded-lg shadow-2xl"
-          />
+          <img src="/shirt.png" className="max-w-sm rounded-lg shadow-2xl" />
           <div>
             <h2 className="text-3xl font-bold mb-3">
               Easily add your design to a wide range of products
@@ -43,19 +40,19 @@ function Product() {
         {/* For mobile scrolling */}
         <div className="flex md:grid md:grid-cols-3 gap-8 mt-12 overflow-x-auto md:overflow-visible">
           <Products
-            imgSrc="/public/custom-products.webp"
+            imgSrc="/custom-products.webp"
             heading="CREATE"
             title="custom products"
             description="Easily add your design to a wide range of products using our free tools"
           />
           <Products
-            imgSrc="/public/your-products.webp"
+            imgSrc="/your-products.webp"
             heading="SELL"
             title="on your terms"
             description="You choose the products, sale price , and where to sell"
           />
           <Products
-            imgSrc="/public/fullfillment.webp"
+            imgSrc="/fullfillment.webp"
             heading="WE HANDLE"
             title="fulfillment"
             description="Once an order is placed, we automatically handle all the printing and delivery logistics"
