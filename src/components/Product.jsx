@@ -14,14 +14,17 @@ function Products({ title, description, imgSrc, heading }) {
 function Product() {
   return (
     <>
-      <div className="bg-gray-100 hero max-w-screen-xl mx-auto px-2 py-8">
+      <div className="bg-gray-100 hero max-w-screen-xl mx-auto px-4 py-8">
         <div className="hero-content flex-col lg:flex-row bg-base-100 shadow-xl max-h-auto overflow-hidden">
-          <img src="/shirt.png" className="max-w-sm rounded-lg shadow-2xl" />
-          <div>
-            <h2 className="text-3xl font-bold mb-3">
+          <img
+            src="/shirt.png"
+            className="w-full max-w-xs md:max-w-sm lg:max-w-md rounded-lg shadow-2xl"
+          />
+          <div className="mt-4 lg:mt-0 lg:ml-8">
+            <h2 className="text-2xl lg:text-3xl font-bold mb-3">
               Easily add your design to a wide range of products
             </h2>
-            <p>
+            <p className="text-sm lg:text-base">
               With our free design tools, you can easily add your custom designs
               to t-shirts, mugs, phone cases, and hundreds of other products.
             </p>
